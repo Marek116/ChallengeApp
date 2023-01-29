@@ -1,31 +1,37 @@
 ﻿// Zadanie dzień czwarty
+string name = "EWA";
+char sex = 'M';
+var age1 = 17;
 
-string name1 = "EWA";
-string name2 = "PIOTR";
-char sex1 = 'K';
-char sex2 = 'M';
-var age1 = 25;
-var age2 = 16;
-if (age1 < 20)
+if (sex == 'F' && age1 < 40)
 {
-    
+    Console.WriteLine("Kobieta poniżej 30 lat");
+}
+else if (name == "EWA" && age1 == 33)
+{
+    Console.WriteLine("EWA lat 33");
+}
+if (sex != 'F' && age1 < 18)
+{
+    Console.WriteLine("Niepełnoletni Mężczyzna");
 }
 
+// LUB jak na poniższym
 
+// Zadanie dzień czwarty
+//string name = "EWA";
+//bool female = false;
+//var age1 = 15;
 
-// operatory relacyjne  ==, !=, <,>, <=, >=,
-
-//bool isActive = true;
-
-//if (age < 50)
+//if (female && age1 < 30)
 //{
-//    if (number1 == "Marek")
-//  Console.WriteLine("MOJE IMIĘ MAREK i MAM POWYŻEJ 50");
+// Console.WriteLine("Kobieta poniżej 30 lat");
 //}
-//else if (age > 40)
+//else if (name == "EWA" && age1 == 33)
 //{
-// Console.WriteLine("JESTEM osobą po 40");
-
+//Console.WriteLine("EWA lat 33");
 //}
-
-//operatory logiczne  && (i), || (lub), ! (negacja)
+//if (!female && age1 < 18) 
+//{
+//   Console.WriteLine("Niepełnoletni Mężczyzna");
+//}
