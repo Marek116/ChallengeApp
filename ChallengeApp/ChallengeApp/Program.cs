@@ -1,10 +1,15 @@
-﻿string name1 = "EWA";
+﻿// Zadanie dzień czwarty
+
+string name1 = "EWA";
 string name2 = "PIOTR";
 char sex1 = 'K';
 char sex2 = 'M';
 var age1 = 25;
 var age2 = 16;
-
+if (age1 < 20)
+{
+    
+}
 
 
 
@@ -15,11 +20,11 @@ var age2 = 16;
 //if (age < 50)
 //{
 //    if (number1 == "Marek")
-      //  Console.WriteLine("MOJE IMIĘ MAREK i MAM POWYŻEJ 50");
+//  Console.WriteLine("MOJE IMIĘ MAREK i MAM POWYŻEJ 50");
 //}
 //else if (age > 40)
 //{
-   // Console.WriteLine("JESTEM osobą po 40");
+// Console.WriteLine("JESTEM osobą po 40");
 
 //}
 
