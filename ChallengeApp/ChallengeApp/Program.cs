@@ -16,7 +16,7 @@ if (sex != 'F' && age1 < 18)
     Console.WriteLine("Niepełnoletni Mężczyzna");
 }
 
-// LUB jak na poniższym
+// LUB jak na poniższym przykładzie z wykożystaniem true/false
 
 // Zadanie dzień czwarty
 //string name = "EWA";
